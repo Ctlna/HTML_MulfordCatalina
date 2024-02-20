@@ -1,0 +1,15 @@
+*{
+    color: brown;
+/*    text-align: center;*/
+    font-family: Cambria;
+}
+#opci{
+    text-align: center;
+    color:palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.subti{
+    text-align: center;
+}
