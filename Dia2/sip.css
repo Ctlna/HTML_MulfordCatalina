@@ -1,0 +1,50 @@
+*{
+    color: brown;
+/*    text-align: center;*/
+    font-family: Cambria;
+}
+#opci{
+    text-align: center;
+    color:palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.subti{
+    text-align: center;
+<<<<<<< HEAD
+}
+h2{
+    text-align: center;
+}
+=======
+    color:rgb(7, 102, 173);
+    font-family: "Titan One", sans-serif;
+    font-weight: 370;
+    font-size: 78px;
+    font-style: normal;
+    margin: 55px;
+      
+}
+h2{
+    text-align: center;
+    color:rgb(41, 173, 178);
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 43px;
+}
+#principal{
+    display: flex;
+    margin: 35px;
+}
+.opci{
+    text-align: center;
+    justify-content: space-evenly;
+    width: 270px;
+    height: 270px;
+    margin: 75px;
+    margin-top: 6px;
+    
+}
+>>>>>>> a091714 (style :lipstick: Mejora css)
