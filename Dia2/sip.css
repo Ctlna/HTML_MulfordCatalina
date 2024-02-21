@@ -11,7 +11,7 @@ h1{
     font-weight: 370;
     font-size: 78px;
     font-style: normal;
-    margin: 20px;
+    margin: 55px;
       
 }
 h2{
@@ -20,7 +20,7 @@ h2{
     font-family: "Supermercado One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 43px;
 }
 #principal{
     display: flex;
