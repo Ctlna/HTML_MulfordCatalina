@@ -4,6 +4,7 @@
 
 *{
     margin: 5px;
+    margin-top: 20px;
     border-radius: 5px;
 }
 h1{
@@ -32,4 +33,17 @@ form{
     font-optical-sizing: auto;
     font-weight: 550;
     font-style: normal;
+}
+#gene{
+    display: flex;
+}
+#princi{
+    margin:20px;
+    border: 7px solid rgb(238, 165, 166);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+.blanc{
+    width: 265px;
 }
