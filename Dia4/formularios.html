@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+    <link href="./mandado.html">
+    <link rel="stylesheet" href="./deco.css">
+    <link rel="icon" href="https://images.vexels.com/media/users/3/157326/isolated/lists/0f58f9cebb0052ca4be9fee21c3b2fdf-icono-de-mariposa-violeta-detallada.png">
+</head>
+<body>
+    <div id="gene">
+        <div class="blanc"></div>
+        <div id="princi">
+            <h2>Registre sus datos</h2>
+            <form action="./mandado.html" method="get">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" maxlength="50"  placeholder="Maximo 50 caracteres" required><br>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"maxlength="50"  placeholder="Maximo 50 caracteres" required><br>
+                <br>    
+
+                <p>Cual es tu sexo:</p>
+                
+                <input type="radio" name="group" ng-model="mValue" Value="1" id="mujer" required>
+                <label for="mujer" >Mujer</label><br>
+                
+                <input type="radio" name="group" ng-model="mValue" Value="2" id="hombre" required>
+                <label for="hombre" >Hombre</label>
+                <br>
+                <br>
+                
+                <label for="email">Escribe tu email:</label>
+                <input type="email" id="email" name="email"  required><br>
+                <br>
+
+                <input type="checkbox" id="certi" checked>
+                <label for="certi">Deseo recibir información sobre novedades y ofertas</label><br>
+                <br>
+
+                <input type="checkbox" id="fica">
+                <label for="fica">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+                <br>
+
+                <label for="pobla">Población</label>
+                <input class="sillysquare" list="Poblacion" placeholder="Seleccione su población">
+                <datalist id="Poblacion">
+                    <option value="Bucaramanga" />
+                    <option value="Girón" />
+                    <option value="Floridablanca " />
+                    <option value="Piedecuesta" />
+                </datalist>
+                <br>  
+                <br>
+
+                <label>Descripción</label>
+                <input type="textarea" id="desc" placeholder="Opcional">
+                <button >Guardar</button><!--Terminar y el resto de clas-->
+            </form>
+        </div>
+        <div class="blanc"></div>
+    </div>
+</body>
+</html>
