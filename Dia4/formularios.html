@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+    <link href="./mandado.html">
+    <link rel="stylesheet" href="./deco.css">
+    <link rel="icon" href="https://images.vexels.com/media/users/3/157326/isolated/lists/0f58f9cebb0052ca4be9fee21c3b2fdf-icono-de-mariposa-violeta-detallada.png">
+</head>
+<body>
+    <h2>Registre sus datos</h2>
+    <form action="./mandado.html" method="get">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" maxlength="50"  placeholder="Maximo 50 caracteres" required><br>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"maxlength="50"  placeholder="Maximo 50 caracteres" required><br>
+        <br>    
+
+        <p>Cual es tu sexo:</p>
+        
+        <input type="radio" name="group" ng-model="mValue" Value="1" id="mujer" required>
+        <label for="mujer" >Mujer</label><br>
+        
+        <input type="radio" name="group" ng-model="mValue" Value="2" id="hombre" required>
+        <label for="hombre" >Hombre</label>
+        <br>
+        <br>
+        
+        <label for="email">Escribe tu email:</label>
+        <input type="email" id="email" name="email"  required><br>
+        <br>
+
+        <input type="checkbox" id="certi" checked>
+        <label for="certi">Deseo recibir información sobre novedades y ofertas</label><br>
+        <br>
+
+        <input type="checkbox" id="fica">
+        <label for="fica">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+        <br>
+
+        <label for="pobla">Población</label>
+        <input type="text" id="pobla" onclick="document.getElementById('opciones').style.display='block'"  placeholder="Selecciona" >
+        <select id="opciones" name="opciones" style="display: none;">
+          <option value="opci1"></option>
+          <option value="opci1">Bucaramanga</option>
+          <option value="opci2">Giron</option>
+          <option value="opci3">Piedecuesta</option>
+          <option value="opci4">Floridablanca</option>
+        </select>
+        <br>  
+        <br>
+
+        <label>Descripción</label>
+        <input type="textarea" id="desc" placeholder="Opcional">
+        <button >Guardar</button><!--Terminar y el resto de clas-->
+    </form>
+</body>
+</html>

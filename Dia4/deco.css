@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Vollkorn:ital,wght@1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Vollkorn:wght@400..900&display=swap');
+
+*{
+    margin: 5px;
+    border-radius: 5px;
+}
+h1{
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 1200;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
+    margin: 120px;
+    color: rgb(31, 37, 68);
+}
+h2{
+    color: rgb(87, 64, 133);
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: 370;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    margin-top: 30px;
+}
+form{
+    color:rgb(58, 68, 124);
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+}
