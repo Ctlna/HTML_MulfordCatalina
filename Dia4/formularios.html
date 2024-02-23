@@ -44,14 +44,13 @@
                 <br>
 
                 <label for="pobla">Población</label>
-                <input type="text" id="pobla" onclick="document.getElementById('opciones').style.display='block'"  placeholder="Selecciona" >
-                <select id="opciones" name="opciones" style="display: none;">
-                <option value="opci1"></option>
-                <option value="opci1">Bucaramanga</option>
-                <option value="opci2">Giron</option>
-                <option value="opci3">Piedecuesta</option>
-                <option value="opci4">Floridablanca</option>
-                </select>
+                <input class="sillysquare" list="Poblacion" placeholder="Seleccione su población">
+                <datalist id="Poblacion">
+                    <option value="Bucaramanga" />
+                    <option value="Girón" />
+                    <option value="Floridablanca " />
+                    <option value="Piedecuesta" />
+                </datalist>
                 <br>  
                 <br>
 
