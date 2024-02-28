@@ -115,6 +115,7 @@ body{
     background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
     background-color: #D5FF43;
     border-radius: 8px;
+    border-color: #D5FF43;
     opacity: 1;
 }
 .info{
