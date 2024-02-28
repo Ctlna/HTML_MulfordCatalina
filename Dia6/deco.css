@@ -267,6 +267,7 @@ body{
     opacity: 1;
     text-align: center;
     top: 830px;
+    overflow: hidden;
 }
 .Valor{
     color: white;
