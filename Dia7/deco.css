@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    background-color: rgba(30,29,43,255);
+    font-family: 'sans-serif';
+    left: 40px;
+}
+#mil{
+    width: 1920px;
+    height: 1080px;
+    top: 147px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#primero{
+    position: relative;
+    margin: 30px;
+    width: 1920px;
+    left: 240px;
+}
+.barraHorizontal{
+    display: flex;
+    margin: 5px;
+}
+.foods{
+    color: rgba(255,112,42,255);
+    margin-top: 15px;
+    margin-right: 375px;
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+}
+.opciones{
+    color: rgba(255,255,255,255);
+    font-size: medium;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 150px;
+    height: 30px;
+}
+.cuadro{
+    display: flex;
+    height: 458px;
+    width: 1210px;
+    left: 50px;
+    justify-content: space-between;
+}
+.texto{
+    text-align: left;
+    width: 491px;
+    height: 434px;
+    margin-left: 125px;
+}
+.FWebsite{
+    color: rgba(255,112,42,255);
+    font-size: 70px;
+    margin-left: 30px;
+    width: 461px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.intro{
+    color: rgba(255,255,255,255);
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.FakeB{
+    position: relative;
+    text-align: center;
+    background-color: rgba(255,112,42,255);
+    width: 262px;
+    height: 90px;
+}
+.falsoB{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255,112,42,255);
+    color: rgba(255,255,255,255);
+    font-size: 30px;
+}
+.home{
+    width: 434px;
+    height: 434px;
+    text-align: center;
+    margin-left: 140px;
+}
+#segundo{
+    display: flex;
+    position: relative;
+    margin: 15px;
+    height: 525px;
+    width: 1258px;
+    left: 240px;
+    justify-content: space-between;
+}
+.aboutUS{
+    position: relative;
+    color: rgba(255,112,42,255);
+    font-size: 30px;
+    margin: 5px;
+
+}
+.Wl{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 60px;
+    width: 488px;
+    height: 200px;
+    margin-bottom: 5px;
+    top: 25px;
+}
+.parrafo{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 400px;
+}
+#cfB{    
+    top: 20px;
+    margin-left: 0px;
+}
+#tercero{
+    position: relative;
+    display: inline;
+    text-align: center;
+    width: 1080px;
+    height: 470.625px;
+    left: 240px;
+    margin: 15px;
+    justify-content: space-between;
+}
+.Fresh{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 60px;
+    margin-bottom: 5px;
+    top: 25px;
+}
+.FM{
+    position: absolute;
+    color: rgba(255,112,42,255);
+    font-size: 30px;
+    margin: 5px;
+    height: 75px;
+    width: 243px;
+    text-align: center;
+    left: 466px;
+    top: 30px;
+}
+#deLado{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-left: 144px;
+}
+.comida{
+    background-color: rgba(255,239,232,255);
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.cUno{
+    position: relative;
+    background-color: rgba(255,239,232,255);
+    border: 8px double rgba(0,0,0,255);
+    width: 230px;
+    height: 259px;
+    margin: 15px;
+    top: 30px;
+    left: 20px;
+    right: 20px;
+}
+.TeComidaG{
+    background-color: rgba(255,239,232,255);
+    color: rgba(0,0,0,255);
+    font-size: 25px;
+    margin: 2px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 54px;
+    width: 219px;
+    margin-top: 14px;
+}
+.TeComidaM{
+    background-color: rgba(255,239,232,255);
+    color: rgba(0,0,0,255);
+    font-size: 17px;
+    margin: 2px;
+    height: 25px;
+    width: 219px;
+    text-align: center;
+    margin-top: 10px;
+}
+.TeComidaP{
+    background-color: rgba(255,239,232,255);
+    color: rgba(255,112,42,255);
+    font-size: 15px;
+    margin: 2px;
+    height: 25px;
+    width: 219px;
+    text-align: center;
+    margin-top: 8px;
+}
+#cuarto{
+    position: relative;
+    display: inline;
+    text-align: center;
+    width: 1080px;
+    height: 470.625px;
+    left: 240px;
+    margin: 15px;
+    justify-content: space-between;
+}
+.s{
+    background-color: rgba(30,29,43,255);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+#lado{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-left: 144px;
+    margin-top: 30px;
+}
+.osd{
+    color: rgba(255,112,42,255);
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+    width: 443px;
+}
+#quinto{
+    position: relative;
+    display: inline;
+    text-align: center;
+    width: 1080px;
+    height: 470.625px;
+    margin: 15px;
+    justify-content: space-between;
+}
+.big{
+    position: relative;
+    background-color: rgba(255,239,232,255);
+    border: 8px double rgba(0,0,0,255);
+    margin: 15px;
+    width: 1620px;
+    height: 280px;
+}
+.WlN{
+    position: relative;
+    background-color: rgba(255,239,232,255);
+    font-size: 60px;
+    width: 1420px;
+}
+#wln{
+    position: relative;
+    text-align: center;
+    background-color: rgba(255,112,42,255);
+    width: 262px;
+    height: 90px;
+    left: 687px;
+}
+#sexto{
+    display: flex;
+    margin-left: 600px;
+    margin-bottom: 15px;
+}
+.final{
+    display: inline;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+}
+.contenido{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+#cor{
+    font-size: 25px;
+}
