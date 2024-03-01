@@ -7,8 +7,8 @@
     left: 40px;
 }
 #mil{
-    width: 1080px;
-    height: 1920px;
+    width: 1920px;
+    height: 1080px;
     top: 147px;
     display: flex;
     flex-direction: row;
@@ -16,8 +16,9 @@
 }
 #primero{
     position: relative;
-    margin: 15px;
-    width: 1080px;
+    margin: 30px;
+    width: 1920px;
+    left: 240px;
 }
 .barraHorizontal{
     display: flex;
@@ -41,15 +42,16 @@
 }
 .cuadro{
     display: flex;
-    width: 500px;
-    height: 100px;
+    height: 458px;
+    width: 1210px;
+    left: 50px;
+    justify-content: space-between;
 }
 .texto{
     text-align: left;
-
-    width: 1080px;
+    width: 491px;
     height: 434px;
-    margin-left: 80px;
+    margin-left: 125px;
 }
 .FWebsite{
     color: rgba(255,112,42,255);
@@ -81,18 +83,19 @@
     font-size: 30px;
 }
 .home{
-    width: 500px;
-    height: 500px;
+    width: 434px;
+    height: 434px;
     text-align: center;
-    margin-left: 85px;
+    margin-left: 140px;
 }
 #segundo{
     display: flex;
     position: relative;
     margin: 15px;
-    width: 1080px;
-    height: 467.625px;
-    top: 145px;
+    height: 525px;
+    width: 1258px;
+    left: 240px;
+    justify-content: space-between;
 }
 .aboutUS{
     position: relative;
@@ -128,7 +131,9 @@
     text-align: center;
     width: 1080px;
     height: 470.625px;
-
+    left: 240px;
+    margin: 15px;
+    justify-content: space-between;
 }
 .Fresh{
     position: relative;
@@ -145,24 +150,27 @@
     height: 75px;
     width: 243px;
     text-align: center;
-    left: 400px;
+    left: 466px;
+    top: 30px;
 }
 #deLado{
     display: flex;
-    margin-left: 257px;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-left: 144px;
 }
 .comida{
     background-color: rgba(255,239,232,255);
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     margin-top: 10px;
 }
 .cUno{
     position: relative;
     background-color: rgba(255,239,232,255);
-    border-color: rgba(0,0,0,255);
-    width: 180px;
-    height: 255px;
+    border: 8px double rgba(0,0,0,255);
+    width: 230px;
+    height: 259px;
     margin: 15px;
     top: 30px;
     left: 20px;
@@ -173,10 +181,12 @@
     color: rgba(0,0,0,255);
     font-size: 25px;
     margin: 2px;
-    height: 55px;
-    width: 176px;
     text-align: center;
-    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 54px;
+    width: 219px;
+    margin-top: 14px;
 }
 .TeComidaM{
     background-color: rgba(255,239,232,255);
@@ -184,7 +194,7 @@
     font-size: 17px;
     margin: 2px;
     height: 25px;
-    width: 176px;
+    width: 219px;
     text-align: center;
     margin-top: 10px;
 }
@@ -194,7 +204,90 @@
     font-size: 15px;
     margin: 2px;
     height: 25px;
-    width: 176px;
+    width: 219px;
     text-align: center;
     margin-top: 8px;
+}
+#cuarto{
+    position: relative;
+    display: inline;
+    text-align: center;
+    width: 1080px;
+    height: 470.625px;
+    left: 240px;
+    margin: 15px;
+    justify-content: space-between;
+}
+.s{
+    background-color: rgba(30,29,43,255);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+#lado{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-left: 144px;
+    margin-top: 30px;
+}
+.osd{
+    color: rgba(255,112,42,255);
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+    width: 443px;
+}
+#quinto{
+    position: relative;
+    display: inline;
+    text-align: center;
+    width: 1080px;
+    height: 470.625px;
+    margin: 15px;
+    justify-content: space-between;
+}
+.big{
+    position: relative;
+    background-color: rgba(255,239,232,255);
+    border: 8px double rgba(0,0,0,255);
+    margin: 15px;
+    width: 1620px;
+    height: 280px;
+}
+.WlN{
+    position: relative;
+    background-color: rgba(255,239,232,255);
+    font-size: 60px;
+    width: 1420px;
+}
+#wln{
+    position: relative;
+    text-align: center;
+    background-color: rgba(255,112,42,255);
+    width: 262px;
+    height: 90px;
+    left: 687px;
+}
+#sexto{
+    display: flex;
+    margin-left: 600px;
+    margin-bottom: 15px;
+}
+.final{
+    display: inline;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+}
+.contenido{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+#cor{
+    font-size: 25px;
 }
