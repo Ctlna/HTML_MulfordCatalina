@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    background-color: rgba(30,29,43,255);
+    font-family: 'sans-serif';
+}
+#mil{
+    width: 192vmin;
+    height: 108vmin;
+    top: 14vmin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#primero{
+    position: relative;
+    margin: 3vmin;
+    width: 192vmin;
+}
+.barraHorizontal{
+    display: flex;
+    width: 170%;
+
+}
+.foods{
+    color: rgba(255,112,42,255);
+    margin-top: 1vmin;
+    margin-right: 37vmin;
+    margin-left: 3vmin;
+    width: 15vmin;
+    height: 5vmin;
+    font-size: 7em;
+}
+.opciones{
+    color: rgba(255,255,255,255);
+    font-size: medium;
+    margin-top: 3vmin;
+    margin-left: 6vmin;
+    width: 15vmin;
+    height: 3vmin;
+    font-size: 4em;
+}
+.cuadro{
+    display: flex;
+    height: 45vmin;
+    width: 135vmin;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 1.5%;
+}
+.texto{
+    text-align: left;
+    width: 49vmin;
+    height: 43vmin;
+    margin-left: 12vmin;
+}
+.FWebsite{
+    color: rgba(255,112,42,255);
+    font-size: 7vmin;
+    margin-left: 3vmin;
+    width: 46vmin;
+    height: 10vmin;
+    margin-bottom: vmin;
+}
+.intro{
+    color: rgba(255,255,255,255);
+    font-size: 5vmin;
+    margin-top: vmin;
+    margin-bottom: vmin;
+    margin-left: 3vmin;
+}
+.FakeB{
+    position: relative;
+    text-align: center;
+    background-color: rgba(255,112,42,255);
+    width: 26vmin;
+    height: 9vmin;
+}
+.falsoB{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255,112,42,255);
+    color: rgba(255,255,255,255);
+    font-size: 3vmin;
+    left: 40px
+}
+.home{
+    width: 43vmin;
+    height: 43vmin;
+    text-align: center;
+    margin-left: 14vmin;
+}
+#segundo{
+    display: flex;
+    position: relative;
+    margin: 1vmin;
+    height: 52vmin;
+    width: 135vmin;
+    left: 4.5%;
+    justify-content: space-between;
+    align-items: start;
+    top: 8%;
+}
+.aboutUS{
+    position: relative;
+    color: rgba(255,112,42,255);
+    font-size: 3vmin;
+    margin: vmin;
+
+}
+.Wl{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 6vmin;
+    width: 48vmin;
+    height: 20vmin;
+    margin-bottom: vmin;
+    top: 2vmin;
+}
+.parrafo{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 3vmin;
+    width: 40vmin;
+    height: 146%
+}
+#cfB{    
+    top: 2vmin;
+    margin-left: vmin;
+}
+#tercero{
+    position: relative;
+    display: inline;
+    text-align: center;
+    width: 144vmin;
+    height: 55vmin;
+    margin: 1vmin;
+    justify-content: space-between;
+    top: 10%;
+}
+.Fresh{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 6vmin;
+    margin-bottom: vmin;
+    top: 2vmin;
+}
+.FM{
+    position: absolute;
+    color: rgba(255,112,42,255);
+    font-size: 3vmin;
+    margin: vmin;
+    height: 7vmin;
+    width: 24vmin;
+    text-align: center;
+    left: 46vmin;
+    top: 3vmin;
+}
+#deLado{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-left: 14vmin;
+}
+.comida{
+    background-color: rgba(255,239,232,255);
+    width: 10vmin;
+    height: 10vmin;
+    margin-top: 1vmin;
+}
+.cUno{
+    position: relative;
+    background-color: rgba(255,239,232,255);
+    border: 2vmin double rgba(0,0,0,255);
+    width: 23vmin;
+    height: 25vmin;
+    margin: 1vmin;
+    top: 3vmin;
+    left: 2vmin;
+    right: 2vmin;
+}
+.TeComidaG{
+    background-color: rgba(255,239,232,255);
+    color: rgba(0,0,0,255);
+    font-size: 3.5em;
+    text-align: center;
+    height: 2vmin;
+    width: 21vmin;
+    margin-top: 1vmin;
+}
+.TeComidaM{
+    background-color: rgba(255,239,232,255);
+    color: rgba(0,0,0,255);
+    font-size: 2.3vmin;
+    height: 1.5vmin;
+    width: 21vmin;
+    text-align: center;
+}
+.TeComidaP{
+    background-color: rgba(255,239,232,255);
+    color: rgba(255,112,42,255);
+    font-size: 2vmin;
+    height: 2vmin;
+    width: 21vmin;
+    text-align: center;
+}
+#cuarto{
+    position: relative;
+    display: inline;
+    text-align: center;
+    width: 140vmin;
+    height: 62vmin;
+    margin: 1vmin;
+    justify-content: space-between;
+    top: 13%;
+    left: 4%;
+}
+.s{
+    background-color: rgba(30,29,43,255);
+    width: 15vmin;
+    height: 15vmin;
+    margin: 1vmin;
+}
+#lado{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 14vmin;
+    margin-top: 3vmin;
+}
+.osd{
+    color: rgba(255,112,42,255);
+    font-size: 3vmin;
+    margin: vmin;
+    text-align: center;
+    width: 44vmin;
+}
+#quinto{
+    position: relative;
+    display: inline;
+    text-align: center;
+    width: 151vmin;
+    height: 43vmin;
+    margin: 1vmin;
+    top: 5em;
+}
+.big{
+    position: relative;
+    background-color: rgba(255,239,232,255);
+    border: vmin double rgba(0,0,0,255);
+    margin: 1vmin;
+    width: 145vmin;
+    height: 28vmin;
+    left: 2%;
+    top: 5%;
+}
+.WlN{
+    position: relative;
+    background-color: rgba(255,239,232,255);
+    font-size: 6vmin;
+    width: 142vmin;
+}
+#wln{
+    position: relative;
+    text-align: center;
+    background-color: rgba(255,112,42,255);
+    width: 26vmin;
+    height: 9vmin;
+    left: 22%;
+}
+#sexto{
+    display: flex;
+    margin-left: 55vmin;
+    margin-bottom: 1vmin;
+    height: 25%;
+
+}
+.final{
+    display: inline;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+.contenido{
+    position: relative;
+    color: rgba(255,255,255,255);
+    font-size: 2vmin;
+    margin-top: vmin;
+    margin-bottom: vmin;
+    text-align: left;
+}
+#cor{
+    font-size: 2vmin;
+    margin: 0;
+}
