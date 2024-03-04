@@ -20,17 +20,17 @@
 }
 .barraHorizontal{
     display: flex;
-    width: 170%;
+    width: 30%;
 
 }
 .foods{
     color: rgba(255,112,42,255);
     margin-top: 1vmin;
-    margin-right: 37vmin;
+    margin-right: 26em;
     margin-left: 3vmin;
     width: 15vmin;
     height: 5vmin;
-    font-size: 7em;
+    font-size: 2em;
 }
 .opciones{
     color: rgba(255,255,255,255);
@@ -39,7 +39,7 @@
     margin-left: 6vmin;
     width: 15vmin;
     height: 3vmin;
-    font-size: 4em;
+    font-size: 1em;
 }
 .cuadro{
     display: flex;
