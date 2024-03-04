@@ -6,7 +6,7 @@
     font-family: 'sans-serif';
 }
 #mil{
-    width: 192vmin;
+    width: 170vmin;
     height: 108vmin;
     top: 14vmin;
     display: flex;
@@ -16,11 +16,11 @@
 #primero{
     position: relative;
     margin: 3vmin;
-    width: 192vmin;
+    width: 164vmin;
 }
 .barraHorizontal{
     display: flex;
-    width: 30%;
+    width: 17%;
 
 }
 .foods{
@@ -183,27 +183,29 @@
 .TeComidaG{
     background-color: rgba(255,239,232,255);
     color: rgba(0,0,0,255);
-    font-size: 3.5em;
+    font-size: 1.6em;
     text-align: center;
     height: 2vmin;
-    width: 21vmin;
+    width: 23vmin;
     margin-top: 1vmin;
 }
 .TeComidaM{
     background-color: rgba(255,239,232,255);
     color: rgba(0,0,0,255);
-    font-size: 2.3vmin;
-    height: 1.5vmin;
-    width: 21vmin;
+    font-size: 1.5vmin;
+    height: 5vmin;
+    width: 23vmin;
     text-align: center;
+    margin-top: 1vmin;
 }
 .TeComidaP{
     background-color: rgba(255,239,232,255);
     color: rgba(255,112,42,255);
-    font-size: 2vmin;
+    font-size: 1.5vmin;
     height: 2vmin;
-    width: 21vmin;
+    width: 23vmin;
     text-align: center;
+    margin-top: 1vmin;
 }
 #cuarto{
     position: relative;
@@ -253,14 +255,16 @@
     margin: 1vmin;
     width: 145vmin;
     height: 28vmin;
-    left: 2%;
-    top: 5%;
+    left: 10%;
+    top: -6%;
 }
 .WlN{
     position: relative;
     background-color: rgba(255,239,232,255);
     font-size: 6vmin;
-    width: 142vmin;
+    width: 71vmin;
+    left: 6em;
+    top: 8%;
 }
 #wln{
     position: relative;
@@ -268,11 +272,11 @@
     background-color: rgba(255,112,42,255);
     width: 26vmin;
     height: 9vmin;
-    left: 22%;
+    left: 40%;
 }
 #sexto{
     display: flex;
-    margin-left: 55vmin;
+    margin-left: 63vmin;
     margin-bottom: 1vmin;
     height: 25%;
 
