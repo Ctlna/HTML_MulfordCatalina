@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+.primero{
+    background-color: #ebb6c8;
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#si{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: #DECDF5;
+    background-color: #df8da3;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15rem;
+    margin-top: 20vi;
+    scrollbar-width: 10px;
+}
+.busca{
+    color: #ac0039;
+    background-color: #D3C0D2;
+    border: 1vi double #bb5e77;
+    height: 7rem;
+    width: 20rem;
+    cursor: pointer;
+    font-size: 250%;
+}
+.segundo{
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#general{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    border: 1vmin solid #ff43f6;
+    border-radius: 2rem;
+    width: 95vi;
+    height: 25vi;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vmin;
+    margin-left: 2%;
+}
+.cosa{
+    width: 17%;
+    text-align: center;
+    border: 1vmin solid #9b2895;
+    border-radius: 3rem;
+    height: 14vi;
+    cursor: pointer;
+}
+@media (max-width: 600px){
+    #general{
+        flex-direction: column;
+        display: block;
+        height: auto;
+    }
+    .cosa{ 
+        flex: none; 
+        width: 100%; 
+     } 
+}
+.imagenes{
+    width: 13vi;
+    border-radius: 1.5vi;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    margin-top: 6vi;
+    font-size: 350%;
+    color: #ac0039;
+}
