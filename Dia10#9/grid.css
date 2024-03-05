@@ -1,0 +1,106 @@
+body{
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+    justify-content: space-around;
+    grid-gap: 1em;
+}
+#padre{
+    background-color: #080404;
+    border-radius: 2em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,4fr);
+    grid-template-areas: 
+    "abba jojo"
+    "abeja jojo"
+    "navi navi"
+    "navi navi";
+    height: 70em;
+    width: 56em;
+    grid-gap:2em;
+}
+.v2{
+    display: grid;
+    grid-area: abba;
+    order: 1;
+    width: 96%;
+    height: 57%;
+    border-radius: 1em;
+    border: 1px solid #080404;
+    margin-top: 20em;
+    margin-left: 2.1em;
+}
+.v1{
+    display: grid;
+    grid-area: abba;
+    order: 3;
+    width: 96%;
+    height: 57%;
+    border-radius: 1em;
+    border: 1px solid #080404;
+    margin-top: 2em;
+    margin-left: 2.1em;
+}
+.f1{
+    display: grid;
+    grid-area: jojo;
+    order: 2;
+    border-radius: 1em;
+    width: 93%;
+    height: 96%;
+    margin-top: 1.5em;
+}
+.dino1{
+    display: grid;
+    grid-area: navi;
+    border-radius: 1em;
+    border: 1px solid #080404;
+    width: 49em;
+    height: 27.8em;
+    margin-left: 2.1em;
+}
+#padrastro{
+    background-color: #080404;
+    border-radius: 2em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,4fr);
+    grid-template-areas: 
+    "abba jojo"
+    "abeja jojo"
+    "navi navi";
+    width: 56em;
+    height: 41em;
+    grid-gap:1.3em;
+}
+.f2{
+    grid-area: abba;
+    order: 1;
+    width: 100%;
+    height: 55%;
+    border-radius: 1em;
+    margin-left: 2.5em;
+    margin-top: 2em;
+}
+.dino2{
+    display: grid;
+    grid-area: abba;
+    order: 3;
+    width: 100%;
+    height: 64%;
+    border-radius: 1em;
+    border: 1px solid #080404;
+    margin-left: 1.8em;
+    margin-top: 18.4em;
+}
+.fu{
+    display: grid;
+    grid-area: jojo;
+    order: 2;
+    border-radius: 1em;
+    width: 80%;
+    height: 96%;
+    margin-left: 3.5em;
+    margin-top: 1em;
+}
