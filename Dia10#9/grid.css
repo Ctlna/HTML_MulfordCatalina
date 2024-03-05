@@ -1,0 +1,63 @@
+#padre{
+/*    background-color: #000000;*/
+    border-radius: 3em;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    align-content: stretch;
+    justify-items: stretch;
+    border: 2px solid red;
+}
+.v1{
+    display: grid;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    height: 50%;
+    width: 50%;
+    border: 2px solid red;
+    align-items: start;
+    justify-items: start;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.v2{
+    border: 2px solid red;
+    display: grid;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    height: 50%;
+    width: 50%;
+    margin-top: 30%;
+    align-items: end;
+    justify-items: start;
+    align-content: space-between;
+}
+#preba{
+    display: grid;
+    max-width: 30vmax;
+    vertical-align:middle;
+    height: auto;
+    border-radius: 3em;
+    margin-top: 2em;
+    border: 2px solid red;
+}
+.f1{
+    width: 38%;
+    border: 2px solid red;
+}
+.f2{
+    width: 25%;
+    height: 85%;
+    border: 2px solid red;
+}
+.fu{
+    width: 30%;
+    height: 30%;
+    border: 2px solid red;
+}
