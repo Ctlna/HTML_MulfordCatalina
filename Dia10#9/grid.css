@@ -1,3 +1,10 @@
+body{
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+    justify-content: space-around;
+    grid-gap: 1em;
+}
 #padre{
     background-color: #080404;
     border-radius: 2em;
@@ -7,31 +14,31 @@
     grid-template-areas: 
     "abba jojo"
     "abeja jojo"
+    "navi navi"
     "navi navi";
-    height: 41em;
-    width: 52em;
-    margin: 2em;
-    margin-top: 6%;
-    margin-left: 6%;
+    height: 70em;
+    width: 56em;
     grid-gap:2em;
-}
-.v1{
-    display: grid;
-    grid-area: abba;
-    order: 1;
-    width: 69%;
-    height: 60%;
-    border-radius: 1em;
-    margin-top: 2em;
-    margin-left: 2.1em;
 }
 .v2{
     display: grid;
     grid-area: abba;
-    order: 3;
-    width: 69%;
-    height: 60%;
+    order: 1;
+    width: 96%;
+    height: 57%;
     border-radius: 1em;
+    border: 1px solid #080404;
+    margin-top: 20em;
+    margin-left: 2.1em;
+}
+.v1{
+    display: grid;
+    grid-area: abba;
+    order: 3;
+    width: 96%;
+    height: 57%;
+    border-radius: 1em;
+    border: 1px solid #080404;
     margin-top: 2em;
     margin-left: 2.1em;
 }
@@ -40,17 +47,17 @@
     grid-area: jojo;
     order: 2;
     border-radius: 1em;
-    width: 61%;
-    height: 87%;
-    margin-left: 3.5em;
+    width: 93%;
+    height: 96%;
     margin-top: 1.5em;
 }
 .dino1{
     display: grid;
     grid-area: navi;
     border-radius: 1em;
-    width: 39.6em;
-    height: 9.8em;
+    border: 1px solid #080404;
+    width: 49em;
+    height: 27.8em;
     margin-left: 2.1em;
 }
 #padrastro{
@@ -63,11 +70,9 @@
     "abba jojo"
     "abeja jojo"
     "navi navi";
-    width: 52em;
+    width: 56em;
     height: 41em;
-    margin: 2em;
-    margin-left: 6%;
-
+    grid-gap:1.3em;
 }
 .f2{
     grid-area: abba;
@@ -75,18 +80,19 @@
     width: 100%;
     height: 55%;
     border-radius: 1em;
-    margin-left: 1.5em;
-    margin-top: 1em;
+    margin-left: 2.5em;
+    margin-top: 2em;
 }
 .dino2{
     display: grid;
     grid-area: abba;
     order: 3;
     width: 100%;
-    height: 43%;
+    height: 64%;
     border-radius: 1em;
+    border: 1px solid #080404;
     margin-left: 1.8em;
-    margin-top: 23.4em;
+    margin-top: 18.4em;
 }
 .fu{
     display: grid;
