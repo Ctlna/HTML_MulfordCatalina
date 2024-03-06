@@ -1,0 +1,14 @@
+*{
+    background-image: url(./Multi/Fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center, center center;
+    background-size: cover, cover;
+    color: #FFFFFF;
+    text-align: center;
+    margin:1px;
+}
+.nube{
+    width: 25%;
+    height: 30%;
+}
