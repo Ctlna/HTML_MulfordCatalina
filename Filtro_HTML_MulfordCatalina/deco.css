@@ -1,0 +1,31 @@
+body{
+    background-color: blanchedalmond;
+}
+#barraVertical{
+    display: inline-block;
+    position: absolute;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: black;
+}
+#centro {
+    display: inline-block;
+    position: relative;
+    left: 16em;
+    top: 3em;
+    width: 97em;
+    height: 60em;
+    border: 1px solid hotpink;
+    border-radius: 2em;
+    background-color: rgb(252, 198, 225);
+}
+.tarjeta {
+    background-color: rgb(198, 252, 234);
+    position: relative;
+    width: 20em;
+    height: 20em;
+    left: 20em;
+}
+.imagen{
+    width: 20em;
+}
